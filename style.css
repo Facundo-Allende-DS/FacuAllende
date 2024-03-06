@@ -1,0 +1,328 @@
+/*Navbar*/
+.container-fluid{
+    background: #1CB698;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    font-family: 'Righteous';
+   
+    
+}
+
+.container-fluid .navbar-brand{
+    font-family: 'Righteous';
+    font-size: 30px;
+    text-align: center;
+    
+    
+    
+}
+.container-fluid .nav-item{
+    text-align: none;
+    color: #1CB698;
+    margin: 0 20px;
+    padding: 10px;
+    transition: .5s;
+    text-decoration: none;
+}
+.container-fluid .nav-item a:hover{
+    color: #1CB698;
+}
+
+/*Inicio*/
+.inicio{
+    background: linear-gradient(to top,  rgba(27, 31, 34, 0.8), rgb(17, 20, 22));
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Righteous';
+    display: flex;
+    align-items: center;
+    padding: 100px 20px;
+    
+}
+.inicio .contenido-banner{
+    padding: 0px;
+    background-color:linear-gradient(to top,  rgba(27, 31, 34, 0.8), rgb(17, 20, 22));
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+    border-style: inset inset none;
+    border-radius: 10px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 3px solid #1CB698;
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 20%;
+}
+
+/*Sobre mi*/
+.sobremi{
+    background: linear-gradient(to top, rgb(17, 20, 22),rgba(32, 34, 36, 0.8));
+    background-image: url("fotito1.jpg");
+    background-position: 50% 50%;
+    color: #fff;
+    font-family: 'Righteous';
+    padding: 30px 20px;
+    background-attachment: scroll;
+    
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+.sobremi .contenido-seccion{
+    padding: 20px;
+    margin:0;
+  background-color: rgba(32, 34, 36, 0.8);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*proyecto*/
+.proyecto{
+    background: linear-gradient(to top, rgba(27, 31, 34, 0.8), rgb(17, 20, 22)),
+    url(img/fondo.jpg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Righteous';
+    display: flex;
+    align-items: center;
+    padding: 100px 20px;
+}
+.proyecto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.proyecto h2{
+    font-size: 40px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 50px 0;
+
+}
+.carousel-control-prev,
+.carousel-control-next {
+    color: #000000; 
+    font-size: 30px; 
+}
+
+
+.carousel-inner img {
+    max-width: 80%; 
+    height: auto; 
+    margin: 0 auto;
+    display: block;
+}
+
+/*SERVICIOS*/
+
+.servicio{
+    background: linear-gradient(to top, rgb(17, 20, 22), rgba(27, 31, 34, 0.8)),
+    url(img/fondo.jpg);
+    color: #fff;
+    font-family: 'Righteous';
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.servicio .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.servicio h2{
+    font-size: 40px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 10px 0;
+
+}
+.servicio .contenido-seccion p{
+    font-size: 20px;
+    line-height: 1.0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.servicio .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+    font-size: 20px;
+}
+.servicio .contenido-seccion span{
+    color: #1CB698;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+.servicio .logos img {
+    width: 80px; /* Tamaño deseado para las imágenes (ajusta el valor según tus necesidades) */
+    margin: 10px; /* Espacio entre las imágenes (ajusta el valor según tus necesidades) */
+    cursor: pointer; /* Cambiar el cursor a una mano para indicar que es un botón */
+  border: 5px solid #000000; /* Agregar un borde */
+  border-radius: 5px; /* Agregar esquinas redondeadas */
+  padding: 0px; /* Agregar espacio interno */
+  transition: background-color 0.3s;
+}
+.logos img:hover {
+    background-color: #ffffff
+    ;
+  }
+
+  .servicio .imagen {
+    margin-top: -320px; /* Mueve la imagen hacia arriba 20px */
+    display: block;
+    width: 50%;
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: -60px;
+}
+
+.servicio .imagen img {
+    max-width: 60%;
+    height: auto;
+}
+
+/*CONTACTO*/
+.contacto{
+    background: linear-gradient(to top,rgba(27, 31, 34, 0.8), rgb(17, 20, 22));
+    color: #fff;
+    font-family: 'Righteous';
+    padding: 30px 20px;
+}
+.contacto .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.contacto .contenido-seccion p{
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.contacto .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+.contacto .contenido-seccion{
+    padding: 20px;
+    
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 80px;
+}
+.contacto .contenido img{
+    margin-top: 40px;
+    border: 5px solid #1CB698;
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 0%;
+}
+.contacto .fila{
+    display: flex;
+    flex-direction: column;
+}
+.contacto .col{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #171a1d;
+    color: #fff;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+
+.contacto .redes{
+    margin-bottom: 20px;
+    
+}
+.contacto .redes a img{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+
+    width:50px;
+    height: 42px;
+    line-height: 42px;
+    margin: 0px 5px;
+    font-size: 20px;
+    cursor: pointer; /* Cambiar el cursor a una mano para indicar que es un botón */
+    padding: 1px; /* Agregar espacio interno */
+    transition: background-color 0.3s;
+}
+.redes img:hover {
+    background-color: #f0f0f0bc;
+  }
+
