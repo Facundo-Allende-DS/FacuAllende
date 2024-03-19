@@ -1,6 +1,6 @@
 /*Navbar*/
 .container-fluid{
-    background: #1f1c1f;
+    background: #caf0f8;
     position: fixed;
     width: 100%;
     top: 0;
@@ -13,7 +13,7 @@
 
 .container-fluid .navbar-brand{
     font-family: 'Righteous';
-    color: #e40b0b;
+    color: #03045e;
     font-size: 23px;
     text-align: center;
     
@@ -22,22 +22,21 @@
 }
 .container-fluid .nav-item{
     text-align: none;
-    color: #1CB698;
+    color: #03045e;
     margin: 0 20px;
     padding: 10px;
     transition: .5s;
     text-decoration: none;
 }
 .container-fluid .nav-item a:hover{
-    color: #1CB698;
+    color: #03045e;
 }
 
 /*Inicio*/
 .inicio{
-    background: linear-gradient(to top, rgb(54, 3, 3),rgba(160, 2, 2, 0.8));
-    background-image: url("fondo-inicio.jpg");
+    background-image: url("fondo.inicio.jpg");
     background-position: 50% 50%;
-    color: #fff;
+    color: #03045e;
     font-family: 'Righteous';
     padding: 30px 20px;
     background-attachment: fixed;
@@ -45,7 +44,6 @@
 }
 .inicio .contenido-banner{
     padding: 0px;
-    background-color:linear-gradient(to top,  rgb(54, 3, 3),rgba(160, 2, 2, 0.8));
     max-width: 550px;
     margin: auto;
     text-align: center;
@@ -53,28 +51,27 @@
     
 }
 .inicio h1{
-    font-size: 48px;
+    font-size: 90px;
     text-align: center;
     padding: 5px 10px;
 }
 .inicio h2{
-    font-size: 22px;
+    font-size: 60px;
     text-align: center;
    
 }
 
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 3px solid #1CB698;
     display: block;
     width: 65%;
     margin: auto;
+    border-radius: 100px;
  
 }
 
 /*Sobre mi*/
 .sobremi{
-    background: linear-gradient(to top, rgb(54, 3, 3),rgba(160, 2, 2, 0.8));
     background-image: url("fotito1.jpg");
     background-position: 50% 50%;
     color: #fff;
@@ -94,12 +91,12 @@
 
 }
 .sobremi .contenido-seccion p{
-    font: 18px;
+    font: 35px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #03045e;
     font-weight: bold;
 }
 .sobremi .contenido-seccion{
@@ -114,7 +111,7 @@
 
 /*proyecto*/
 .proyecto{
-    background: linear-gradient(to top,rgba(160, 2, 2, 0.8), rgb(54, 3, 3)),
+    background: linear-gradient(to top,rgb(0, 85, 255),rgba(0, 181, 253, 0.8)),
     url(img/fondo.jpg);
     flex-direction: column;
     justify-content: center;
@@ -157,7 +154,7 @@
 /*SERVICIOS*/
 
 .servicio{
-    background: linear-gradient(to top, rgb(54, 3, 3),rgba(160, 2, 2, 0.8)),
+    background: linear-gradient(to top,rgba(0, 181, 253, 0.8),rgb(0, 85, 255)),
     url(img/fondo.jpg);
     color: #fff;
     font-family: 'Righteous';
@@ -187,12 +184,12 @@
     text-align: left;
 }
 .servicio .contenido-seccion p span{
-    color: #1CB698;
+    color: #03045e;
     font-weight: bold;
     font-size: 20px;
 }
 .servicio .contenido-seccion span{
-    color: #1CB698;
+    color: #03045e;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
@@ -228,7 +225,7 @@
 
 /*CONTACTO*/
 .contacto{
-    background: linear-gradient(to top,rgba(160, 2, 2, 0.8), rgb(54, 3, 3));
+    background: linear-gradient(to top,rgb(0, 85, 255),rgba(0, 181, 253, 0.8));
     color: #fff;
     font-family: 'Righteous';
     padding: 30px 20px;
@@ -250,7 +247,7 @@
     margin-bottom: 20px;
 }
 .contacto .contenido-seccion p span{
-    color: #1CB698;
+    color: #03045e;
     font-weight: bold;
 }
 .contacto .contenido-seccion{
@@ -306,7 +303,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #03045e;
     z-index: -1;
     transition: 1s;
 }
