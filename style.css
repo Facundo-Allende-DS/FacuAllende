@@ -13,7 +13,7 @@
 
 .container-fluid .navbar-brand{
     font-family: 'Righteous';
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     
     
@@ -33,14 +33,13 @@
 
 /*Inicio*/
 .inicio{
-    background: linear-gradient(to top,  rgba(27, 31, 34, 0.8), rgb(17, 20, 22));
-    background-size: cover;
-    height: 100vh;
+    background: linear-gradient(to top, rgb(17, 20, 22),rgba(32, 34, 36, 0.8));
+    background-image: url("fondo-dev.png");
+    background-position: 50% 50%;
     color: #fff;
     font-family: 'Righteous';
-    display: flex;
-    align-items: center;
-    padding: 100px 20px;
+    padding: 30px 20px;
+    background-attachment: fixed;
     
 }
 .inicio .contenido-banner{
@@ -49,16 +48,27 @@
     max-width: 550px;
     margin: auto;
     text-align: center;
-    border-style: inset inset none;
-    border-radius: 10px;
+    
+    
 }
+.inicio h1{
+    font-size: 48px;
+    text-align: center;
+    padding: 5px 10px;
+}
+.inicio h2{
+    font-size: 22px;
+    text-align: center;
+   
+}
+
 .inicio .contenido-banner img{
     margin-top: 40px;
     border: 3px solid #1CB698;
     display: block;
-    width: 50%;
+    width: 65%;
     margin: auto;
-    border-radius: 20%;
+ 
 }
 
 /*Sobre mi*/
@@ -243,9 +253,8 @@
     font-weight: bold;
 }
 .contacto .contenido-seccion{
-    padding: 20px;
-    
-    max-width: 500px;
+    padding: 10px;
+    max-width: 800px;
     margin: auto;
     text-align: center;
     border-radius: 80px;
