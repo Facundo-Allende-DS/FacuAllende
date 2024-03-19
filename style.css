@@ -1,6 +1,6 @@
 /*Navbar*/
 .container-fluid{
-    background: #1CB698;
+    background: #1f1c1f;
     position: fixed;
     width: 100%;
     top: 0;
@@ -13,6 +13,7 @@
 
 .container-fluid .navbar-brand{
     font-family: 'Righteous';
+    color: #e40b0b;
     font-size: 23px;
     text-align: center;
     
@@ -33,8 +34,8 @@
 
 /*Inicio*/
 .inicio{
-    background: linear-gradient(to top, rgb(17, 20, 22),rgba(32, 34, 36, 0.8));
-    background-image: url("fondo-dev.png");
+    background: linear-gradient(to top, rgb(54, 3, 3),rgba(160, 2, 2, 0.8));
+    background-image: url("fondo-inicio.jpg");
     background-position: 50% 50%;
     color: #fff;
     font-family: 'Righteous';
@@ -44,7 +45,7 @@
 }
 .inicio .contenido-banner{
     padding: 0px;
-    background-color:linear-gradient(to top,  rgba(27, 31, 34, 0.8), rgb(17, 20, 22));
+    background-color:linear-gradient(to top,  rgb(54, 3, 3),rgba(160, 2, 2, 0.8));
     max-width: 550px;
     margin: auto;
     text-align: center;
@@ -73,7 +74,7 @@
 
 /*Sobre mi*/
 .sobremi{
-    background: linear-gradient(to top, rgb(17, 20, 22),rgba(32, 34, 36, 0.8));
+    background: linear-gradient(to top, rgb(54, 3, 3),rgba(160, 2, 2, 0.8));
     background-image: url("fotito1.jpg");
     background-position: 50% 50%;
     color: #fff;
@@ -113,7 +114,7 @@
 
 /*proyecto*/
 .proyecto{
-    background: linear-gradient(to top, rgba(27, 31, 34, 0.8), rgb(17, 20, 22)),
+    background: linear-gradient(to top,rgba(160, 2, 2, 0.8), rgb(54, 3, 3)),
     url(img/fondo.jpg);
     flex-direction: column;
     justify-content: center;
@@ -156,7 +157,7 @@
 /*SERVICIOS*/
 
 .servicio{
-    background: linear-gradient(to top, rgb(17, 20, 22), rgba(27, 31, 34, 0.8)),
+    background: linear-gradient(to top, rgb(54, 3, 3),rgba(160, 2, 2, 0.8)),
     url(img/fondo.jpg);
     color: #fff;
     font-family: 'Righteous';
@@ -227,7 +228,7 @@
 
 /*CONTACTO*/
 .contacto{
-    background: linear-gradient(to top,rgba(27, 31, 34, 0.8), rgb(17, 20, 22));
+    background: linear-gradient(to top,rgba(160, 2, 2, 0.8), rgb(54, 3, 3));
     color: #fff;
     font-family: 'Righteous';
     padding: 30px 20px;
