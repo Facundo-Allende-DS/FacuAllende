@@ -1,6 +1,6 @@
 /*Navbar*/
 .container-fluid{
-    background: #caf0f8;
+    background: #303030;
     position: fixed;
     width: 100%;
     top: 0;
@@ -13,7 +13,7 @@
 
 .container-fluid .navbar-brand{
     font-family: 'Righteous';
-    color: #03045e;
+    color: #c5c5c5;
     font-size: 23px;
     text-align: center;
     
@@ -22,21 +22,21 @@
 }
 .container-fluid .nav-item{
     text-align: none;
-    color: #03045e;
+    color: #c5c5c5;
     margin: 0 20px;
     padding: 10px;
     transition: .5s;
     text-decoration: none;
 }
 .container-fluid .nav-item a:hover{
-    color: #03045e;
+    color: #c5c5c5;
 }
 
 /*Inicio*/
 .inicio{
     background-image: url("fondo.inicio.jpg");
     background-position: 50% 50%;
-    color: #03045e;
+    color: #303030;
     font-family: 'Righteous';
     padding: 30px 20px;
     background-attachment: fixed;
@@ -96,13 +96,13 @@
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #03045e;
+    color: #c5c5c5;
     font-weight: bold;
 }
 .sobremi .contenido-seccion{
     padding: 20px;
     margin:0;
-  background-color: rgba(32, 34, 36, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
     max-width: 500px;
     margin: auto;
     text-align: center;
@@ -111,7 +111,7 @@
 
 /*proyecto*/
 .proyecto{
-    background: linear-gradient(to top,rgb(0, 85, 255),rgba(0, 181, 253, 0.8)),
+    background: linear-gradient(to top,rgba(7, 7, 7, 0.8),rgb(174, 174, 174)),
     url(img/fondo.jpg);
     flex-direction: column;
     justify-content: center;
@@ -154,7 +154,7 @@
 /*SERVICIOS*/
 
 .servicio{
-    background: linear-gradient(to top,rgba(0, 181, 253, 0.8),rgb(0, 85, 255)),
+    background: linear-gradient(to top,rgb(174, 174, 174),rgba(7, 7, 7, 0.8)),
     url(img/fondo.jpg);
     color: #fff;
     font-family: 'Righteous';
@@ -184,12 +184,12 @@
     text-align: left;
 }
 .servicio .contenido-seccion p span{
-    color: #03045e;
+    color: #1d1d1d;
     font-weight: bold;
     font-size: 20px;
 }
 .servicio .contenido-seccion span{
-    color: #03045e;
+    color: #1d1d1d;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
@@ -225,7 +225,7 @@
 
 /*CONTACTO*/
 .contacto{
-    background: linear-gradient(to top,rgb(0, 85, 255),rgba(0, 181, 253, 0.8));
+    background: linear-gradient(to top,rgba(7, 7, 7, 0.8),rgb(174, 174, 174));
     color: #fff;
     font-family: 'Righteous';
     padding: 30px 20px;
@@ -247,7 +247,7 @@
     margin-bottom: 20px;
 }
 .contacto .contenido-seccion p span{
-    color: #03045e;
+    color: #303030;
     font-weight: bold;
 }
 .contacto .contenido-seccion{
